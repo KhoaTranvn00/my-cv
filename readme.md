@@ -1,3 +1,3 @@
-## Hoang Linh CV
+## Khoa Tran CV
 
-## Link to HoanglinhPlusCV : [Link to CV](https://secretdeveloperisme.github.io/Curriculum_Vitae/HoangLinhPlusCV.html)
+## Link to Khoa Tran CV : [Link to CV](https://khoatranvn00.github.io//Curriculum_Vitae/KhoaCVNew.html)
