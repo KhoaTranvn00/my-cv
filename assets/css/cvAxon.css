@@ -1,9 +1,13 @@
 .mtnn {
 	text-align: justify;
 	line-height: 1.35;
+	text-indent: 20px;
+}
+a {
+	color: #333;
 }
 .cv-card-body-row .block {
-	margin: 8px 0px 2px 4px;
+	margin: 6px 0px 2px 4px;
 	font-size: 1rem;
 }
 .cv-card-body-row .block + .block {
@@ -21,17 +25,32 @@
 	font-weight: 700;
 	position: relative;
 }
-.cv-card-body-row .block .desc {
+.block .desc {
 	font-size: 1rem;
 }
-.cv-card-body-row .block .desc p {
-	font-size: 0.9rem;
+.block .desc p {
+	font-size: 1rem;
 }
-.cv-card-body-row .block .desc ul {
+.block .desc ul {
 	list-style-type: disc;
 }
 .block .desc li {
 	margin: 0 0 2px 25px;
+}
+
+.block .desc ul {
+	list-style-type: disc;
+}
+.block .desc li {
+	margin: 0 0 2px 25px;
+}
+ul ul {
+	list-style-type: circle !important;
+}
+.separate {
+	height: 3px;
+	width: 100%;
+	background-color: #ccc;
 }
 .dash::after {
 	content: "";
@@ -81,11 +100,12 @@
 .cv-container-a4 {
 	padding: 10px 20px;
 	width: 210mm;
-	min-height: 260mm;
-	background-image: url("../../assets/images/background.png");
+	min-height: 550mm;
+	/* background-image: url("../../assets/images/background.png"); */
 	background-color: #fafafa;
 	background-size: cover;
 	background-repeat: no-repeat;
+	height: 2246px;
 }
 .cv-title {
 	display: flex;
@@ -99,7 +119,7 @@
 	left: 30px;
 }
 .cv-title__avatar {
-	background-image: url(../../assets/images/cv2.png);
+	background-image: url(../../assets/images/KhoaAvatar.png);
 	background-size: cover;
 	background-repeat: no-repeat;
 	border-radius: 50%;
@@ -126,6 +146,7 @@
 .cv-title-profile-title {
 	text-align: center;
 	margin-top: 10px;
+	font-weight: 500;
 }
 .cv-body {
 }
@@ -160,9 +181,14 @@
 .cv-card-body {
 }
 .cv-card-body-row {
+	font-size: 1em;
+	margin: 4px 0;
+}
+.cv-card-body-row-col {
 	padding: 5px 0;
 	font-size: 1em;
 	margin: 2px 0;
+	display: flex;
 }
 .cv-card-body-row div {
 	margin: 3px 0;
@@ -173,7 +199,19 @@
 	margin-right: 5px;
 }
 .cv-card-body-row * {
-	font-size: 0.9em;
+	font-size: 1em;
+}
+.cv-card-body-row-col * {
+	font-size: 1em;
+}
+.cv-card-body-col-left {
+	width: 20%;
+	padding: 0px 6px;
+}
+.cv-card-body-col-right {
+	width: 80%;
+	padding: 0px 6px;
+	line-height: 1.4;
 }
 .cv-profile-university * {
 	font-size: 1em;
